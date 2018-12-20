@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //building the recyclerView
-    //TODO 1 create noteItem.xml
-    //TODO 2 Edit the mainActivity.xml layout to fit a recyclerView
+    //TODO 1 create noteItem.xml [x]
+    //TODO 2 Edit the mainActivity.xml layout to fit a recyclerView [x]
     //TODO 3 create the Adapter class that extends recycler View.adapter
     //TODO 4 connect the RecyclerView with the adapter inside the main activity class
     //TODO 5 inside the observer annymous inccer class of observer to change the data of the adapter whenever it changes
