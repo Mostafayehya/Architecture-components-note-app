@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey;
 @Entity(tableName = "note_table")
 public class Note {
 
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     private int id;
 
     private String title;

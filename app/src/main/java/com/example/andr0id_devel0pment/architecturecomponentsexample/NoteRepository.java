@@ -38,6 +38,10 @@ public class NoteRepository {
 
     }
 
+    public LiveData<List<Note>> getAllNotes(){
+        return allNotes;
+    }
+
     private static class insertAsyncTask extends AsyncTask<Note, Void, Void> {
 
         private NoteDao noteDao;
