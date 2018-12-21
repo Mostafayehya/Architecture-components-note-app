@@ -8,6 +8,10 @@ import java.util.List;
 
 import androidx.lifecycle.LiveData;
 
+//TODO find more convienet way to write those Asynctasks because somebody on the comment sections on youtube said that
+//TODO those Async Tasks can get Spagitii very fast
+
+
 public class NoteRepository {
 
     private NoteDao noteDao;

@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import java.util.List;
 
-
+//setting up viewModel
 //TODO(1)Access the below layer of the view which is ViewModel
 //TODO assign the ViewModel to this activity and specify which viewmodel for this activity
 //TODO Observe this data model to reflect the change in the data
@@ -19,10 +19,10 @@ import java.util.List;
 
 //building the recyclerView
 //TODO 1 create noteItem.xml [x]
-//TODO 2 Edit the mainActivity.xml layout to fit a recyclerView [x]
-//TODO 3 create the Adapter class that extends recycler View.adapter [x]
-//TODO 4 connect the RecyclerView with the adapter inside the main activity class
-//TODO 5 inside the observer annymous incner class of observer to change the data of the adapter whenever it changes
+//TODO 2 Edit the mainActivity.xml layout to fit a recyclerView                                                          [x]
+//TODO 3 create the Adapter class that extends recycler View.adapter                                                     [x]
+//TODO 4 connect the RecyclerView with the adapter inside the main activity class                                        [x]
+//TODO 5 inside the observer annymous incner class of observer to change the data of the adapter whenever it changes     [x]
 
 
 public class MainActivity extends AppCompatActivity {

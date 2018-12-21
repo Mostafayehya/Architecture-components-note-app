@@ -12,6 +12,7 @@ public class NoteViewModel extends AndroidViewModel {
     private NoteRepository noteRepository;
     private LiveData<List<Note>> notesAsLiveData;
 
+
     public NoteViewModel(@NonNull Application application) {
         super(application);
 
